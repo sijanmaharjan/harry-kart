@@ -71,6 +71,37 @@ Your task is to compute the top 3 ranking.
 | 2nd      | TIMETOBELUCKY |
 | 3rd      | HERCULES BOKO |
 
+## Example 3
+###This one is same as of first one but unordered
+### Input
+
+**Number of loops:** 3
+
+**Start List:**
+
+| Lane | Horse name     | Base speed |
+|------|----------------|------------|
+| 1    | TIMETOBELUCKY  | 10         |
+| 2    | CARGO DOOR     | 10         |
+| 4    | WAIKIKI SILVIO | 10         |
+| 3    | HERCULES BOKO  | 10         |
+
+**Power-Ups/Downs:**
+
+| Loop | Lane 1 | Lane 3 | Lane 4 | Lane 2 |
+|------|--------|--------|--------|--------|
+| 2    | 1      | 2      | -2     | -1     |
+| 1    | 1      | 1      |  0     | -2     |
+
+### Result
+
+| Position | Horse Name    |
+|----------|---------------|
+| 1st      | TIMETOBELUCKY |
+| 2nd      | HERCULES BOKO |
+| 3rd      | CARGO DOOR    |
+
+
 ## Implementation
 The assignment has to be implemented as a spring boot application with Java 8, here you find the boilerplate application.
 
